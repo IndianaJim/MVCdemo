@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyFirstView</title>
+</head>
+<body>
+    <div>
+        @*Welcome to My 1st View test!!*@
+        @*My data is @ViewData["MyData"];*@
+        Customer Name: @ViewBag.CustomerData.CustomerName
+        <br />
+        Address: @ViewBag.CustomerData.Address
+        <br />
+        Age: @ViewBag.CustomerData.Age
+    </div>
+</body>
+</html>
